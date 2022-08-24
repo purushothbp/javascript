@@ -11,7 +11,6 @@ const persons=[1,2,3,4,5];
         setTimeout(()=>{
           console.log("person "+persons[i]+ " was going in:");
           resolve("The time consumed was " +ran+" seconds");
-          console.log(`Next person go inside`);
           reject("nothing");
         },ran*1000)
         });
@@ -25,6 +24,3 @@ const persons=[1,2,3,4,5];
   
     
     
-
-
-
